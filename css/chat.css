@@ -1,0 +1,48 @@
+.container {
+  background-color: rgb(49, 77, 114);
+  border-radius: 00px;
+  height: 300px;
+  width: 400px;
+  margin: 0px;
+  overflow-y: auto;
+  float: right;
+}
+.message {
+  padding: 2px;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  margin: 8px;
+  border-radius: 5px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  clear: both;
+  float: right;
+}
+#send-container {
+  float: right;
+}
+#messageInp {
+  margin-top: 300px;
+  margin-right: -434px;
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+  border: 2px solid rgb(70, 70, 136);
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  background-color: black;
+  /* border-radius: 15px; */
+}
